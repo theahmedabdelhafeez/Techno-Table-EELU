@@ -14,6 +14,7 @@ import TablePage from "./Pages/Table/TablePage";
 import GenerateTableLec from "./Pages/GenerateTableLec";
 import GeneratingOptions from "./Pages/GeneratingOptions";
 import GenerateTableSec from "./Pages/GenerateTableSec";
+import Table2Page from "./Pages/Table2/Table2Page";
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/GenerateTableLec" element={<GenerateTableLec />} />
           <Route path="/GeneratingOptions" element={<GeneratingOptions />} />
           <Route path="/GenerateTableSec" element={<GenerateTableSec />} />
+          <Route path="/table2" element={<Table2Page />} />
         </Routes>
       </Router>
     </div>
