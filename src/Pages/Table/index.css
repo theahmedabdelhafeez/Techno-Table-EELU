@@ -1,0 +1,11 @@
+.table-cell{
+    background-color: #D9D9D9;
+    max-width: 265.46px;
+    height: 135.15px;
+    border-radius: 3.62px;
+    margin: 14px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
