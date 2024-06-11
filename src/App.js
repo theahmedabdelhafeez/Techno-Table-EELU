@@ -12,6 +12,7 @@ import LecSchedules from "./Pages/LecSchedules";
 import SecSchedules from "./Pages/SecSchedules";
 import TablePage from "./Pages/Table/TablePage";
 import GenerateTableLec from "./Pages/GenerateTableLec";
+import GeneratingOptions from "./Pages/GeneratingOptions";
 import GenerateTableSec from "./Pages/GenerateTableSec";
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/studenttable" element={<StudentsTable />} />
           <Route path="/stafftable" element={<StaffTable />} />
           <Route path="/GenerateTableLec" element={<GenerateTableLec />} />
+          <Route path="/GeneratingOptions" element={<GeneratingOptions />} />
           <Route path="/GenerateTableSec" element={<GenerateTableSec />} />
         </Routes>
       </Router>
