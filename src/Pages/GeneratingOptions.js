@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 export default function GeneratingOptions() {
   return (
     <div className="HomePage">
-              <Button variant="primary">
+      Generating Otions
+      <div className="buttons">
+              <Link className="btn" to="/GenerateTableLec">
                 Lectures Schedules
-              </Button>
+              </Link>
 
-              <Button variant="primary">
-                Sections Schedules
-              </Button>
+              <Link className="btn" to="/GenerateTableSec">
+                Sections Schedules 
+              </Link>
+               </div>
                </div>
   );
 }
